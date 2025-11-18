@@ -19,7 +19,7 @@ GameManager::~GameManager() {
     UnloadAudio();  // Descarrega a soundtrack
 }
 
-// NOVO: Método para carregar áudio
+// Método para carregar áudio
 void GameManager::LoadAudio() {
     // Carrega a música de fundo 
     backgroundMusic = LoadMusicStream("assets/background_music.mp3");

@@ -12,8 +12,8 @@ Enemy::Enemy(int startX, int startY, EnemyType enemyType)
             radius = 20;
             health = 3;
             initialHealth = 3;
-            width = 64;   // NOVO: Tamanho para sprite
-            height = 64;  // NOVO: Tamanho para sprite
+            width = 64;   //  Tamanho para sprite
+            height = 64;  //  Tamanho para sprite
             break;
         case EnemyType::DOUBLE:
             speed = 3;
