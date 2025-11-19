@@ -238,7 +238,7 @@ void Player::ApplyPowerUp(int powerUpType) {
             break;
             
         case PowerUpType::DASH:
-            // Habilidade permanente, sem duração
+            
             break;
             
         case PowerUpType::SPEED_BOOST:

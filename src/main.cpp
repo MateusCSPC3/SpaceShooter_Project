@@ -6,7 +6,7 @@ int main() {
     constexpr int screenHeight = 700;
 
     // Inicializa a janela
-    InitWindow(screenWidth, screenHeight, "Space Shooter - With Sound!");
+    InitWindow(screenWidth, screenHeight, "Space Shooter");
     
     // INICIALIZA O ÁUDIO 
     InitAudioDevice();

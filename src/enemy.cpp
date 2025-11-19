@@ -3,8 +3,8 @@
 #include <algorithm>
 
 Enemy::Enemy(int startX, int startY, EnemyType enemyType)
-    : x(startX), y(startY), type(enemyType), shootCooldown(60) {
-    
+    : x(startX), y(startY), type(enemyType) {
+    shootCooldown= 60;
     // Configurações baseadas no tipo
     switch(type) {
         case EnemyType::BASIC:
